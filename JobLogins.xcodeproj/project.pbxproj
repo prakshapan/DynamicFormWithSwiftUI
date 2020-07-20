@@ -7,19 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090B46BC24C1D923007EDADA /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B46BB24C1D923007EDADA /* StringConstants.swift */; };
+		09150A2224C334DF00A41E49 /* Datefield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09150A2124C334DE00A41E49 /* Datefield.swift */; };
+		09150A2424C3622000A41E49 /* TransitionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09150A2324C3622000A41E49 /* TransitionExtension.swift */; };
+		0960159E24C3E2B8003E1160 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0960159B24C3E2B8003E1160 /* Keyboard.swift */; };
+		0960159F24C3E2B8003E1160 /* KeyboardObservingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0960159C24C3E2B8003E1160 /* KeyboardObservingView.swift */; };
+		096015A624C3E2FA003E1160 /* KeyboardObserving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096015A224C3E2FA003E1160 /* KeyboardObserving.swift */; };
+		096015A724C3E2FA003E1160 /* HiddenOnKeyboardViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096015A324C3E2FA003E1160 /* HiddenOnKeyboardViewModifier.swift */; };
+		096015A824C3E2FA003E1160 /* View+HideOnKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096015A424C3E2FA003E1160 /* View+HideOnKeyboard.swift */; };
+		096015A924C3E2FA003E1160 /* View+KeyboardObserving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096015A524C3E2FA003E1160 /* View+KeyboardObserving.swift */; };
+		096015BA24C473EA003E1160 /* KeyboardDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096015B924C473EA003E1160 /* KeyboardDismiss.swift */; };
+		096015BC24C47632003E1160 /* Pickerfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096015BB24C47632003E1160 /* Pickerfield.swift */; };
+		097D5D9324C2B6A800EDC82C /* AppTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D5D9224C2B6A800EDC82C /* AppTextfield.swift */; };
+		097D5D9524C2B9DD00EDC82C /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D5D9424C2B9DD00EDC82C /* ColorExtension.swift */; };
+		097D5D9924C2BF9600EDC82C /* LodgeTaxReturnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D5D9824C2BF9600EDC82C /* LodgeTaxReturnView.swift */; };
+		099979CA24C18D1500EE2082 /* FormElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099979C924C18D1500EE2082 /* FormElement.swift */; };
+		099979CC24C18D4100EE2082 /* RulesAndErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099979CB24C18D4100EE2082 /* RulesAndErrors.swift */; };
+		09C6CFC324BFFDAF001315C0 /* SigIn+SubViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C6CFC224BFFDAF001315C0 /* SigIn+SubViews.swift */; };
+		09C6CFC724BFFE15001315C0 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C6CFC624BFFE15001315C0 /* LoginTextField.swift */; };
+		09C6CFCA24BFFE53001315C0 /* ButtomTextfieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C6CFC924BFFE53001315C0 /* ButtomTextfieldStyle.swift */; };
+		09C6CFCD24BFFE75001315C0 /* CircularButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C6CFCC24BFFE75001315C0 /* CircularButtonStyle.swift */; };
+		09C6CFCF24BFFF24001315C0 /* NeumorphicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C6CFCE24BFFF24001315C0 /* NeumorphicButtonStyle.swift */; };
+		09C6CFD224C0325F001315C0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C6CFD124C0325F001315C0 /* SignUpView.swift */; };
+		09C6CFD524C03E6A001315C0 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C6CFD424C03E6A001315C0 /* TitleView.swift */; };
+		09C6CFD724C040CF001315C0 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C6CFD624C040CF001315C0 /* BackgroundView.swift */; };
+		09C6CFDA24C041E8001315C0 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C6CFD924C041E8001315C0 /* ImageExtension.swift */; };
+		09C6CFDD24C060A9001315C0 /* ObservableArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C6CFDC24C060A9001315C0 /* ObservableArray.swift */; };
+		09C6CFE024C060CC001315C0 /* RegexCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C6CFDF24C060CC001315C0 /* RegexCheck.swift */; };
 		09DF22B324BE8EBC008FE9BD /* JobLoginsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF22B224BE8EBC008FE9BD /* JobLoginsApp.swift */; };
-		09DF22B524BE8EBC008FE9BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF22B424BE8EBC008FE9BD /* ContentView.swift */; };
+		09DF22B524BE8EBC008FE9BD /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF22B424BE8EBC008FE9BD /* SignInView.swift */; };
 		09DF22B724BE8EC1008FE9BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09DF22B624BE8EC1008FE9BD /* Assets.xcassets */; };
 		09DF22BA24BE8EC1008FE9BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09DF22B924BE8EC1008FE9BD /* Preview Assets.xcassets */; };
+		09F52D0D24C571C90023049C /* Appfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F52D0C24C571C90023049C /* Appfield.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		090B46BB24C1D923007EDADA /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
+		09150A2124C334DE00A41E49 /* Datefield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datefield.swift; sourceTree = "<group>"; };
+		09150A2324C3622000A41E49 /* TransitionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionExtension.swift; sourceTree = "<group>"; };
+		0960159B24C3E2B8003E1160 /* Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		0960159C24C3E2B8003E1160 /* KeyboardObservingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardObservingView.swift; sourceTree = "<group>"; };
+		096015A224C3E2FA003E1160 /* KeyboardObserving.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardObserving.swift; sourceTree = "<group>"; };
+		096015A324C3E2FA003E1160 /* HiddenOnKeyboardViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiddenOnKeyboardViewModifier.swift; sourceTree = "<group>"; };
+		096015A424C3E2FA003E1160 /* View+HideOnKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+HideOnKeyboard.swift"; sourceTree = "<group>"; };
+		096015A524C3E2FA003E1160 /* View+KeyboardObserving.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+KeyboardObserving.swift"; sourceTree = "<group>"; };
+		096015B924C473EA003E1160 /* KeyboardDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardDismiss.swift; sourceTree = "<group>"; };
+		096015BB24C47632003E1160 /* Pickerfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickerfield.swift; sourceTree = "<group>"; };
+		097D5D9224C2B6A800EDC82C /* AppTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextfield.swift; sourceTree = "<group>"; };
+		097D5D9424C2B9DD00EDC82C /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		097D5D9824C2BF9600EDC82C /* LodgeTaxReturnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LodgeTaxReturnView.swift; sourceTree = "<group>"; };
+		099979C924C18D1500EE2082 /* FormElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormElement.swift; sourceTree = "<group>"; };
+		099979CB24C18D4100EE2082 /* RulesAndErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesAndErrors.swift; sourceTree = "<group>"; };
+		09C6CFC224BFFDAF001315C0 /* SigIn+SubViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SigIn+SubViews.swift"; sourceTree = "<group>"; };
+		09C6CFC624BFFE15001315C0 /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		09C6CFC924BFFE53001315C0 /* ButtomTextfieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtomTextfieldStyle.swift; sourceTree = "<group>"; };
+		09C6CFCC24BFFE75001315C0 /* CircularButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButtonStyle.swift; sourceTree = "<group>"; };
+		09C6CFCE24BFFF24001315C0 /* NeumorphicButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButtonStyle.swift; sourceTree = "<group>"; };
+		09C6CFD124C0325F001315C0 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		09C6CFD424C03E6A001315C0 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		09C6CFD624C040CF001315C0 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		09C6CFD924C041E8001315C0 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		09C6CFDC24C060A9001315C0 /* ObservableArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableArray.swift; sourceTree = "<group>"; };
+		09C6CFDF24C060CC001315C0 /* RegexCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexCheck.swift; sourceTree = "<group>"; };
 		09DF22AF24BE8EBC008FE9BD /* JobLogins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobLogins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09DF22B224BE8EBC008FE9BD /* JobLoginsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobLoginsApp.swift; sourceTree = "<group>"; };
-		09DF22B424BE8EBC008FE9BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		09DF22B424BE8EBC008FE9BD /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		09DF22B624BE8EC1008FE9BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09DF22B924BE8EC1008FE9BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		09DF22BB24BE8EC1008FE9BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09F52D0C24C571C90023049C /* Appfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appfield.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +89,129 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		090B46BA24C1D918007EDADA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				090B46BB24C1D923007EDADA /* StringConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		096015A124C3E2EC003E1160 /* KeyBoardObservers */ = {
+			isa = PBXGroup;
+			children = (
+				0960159B24C3E2B8003E1160 /* Keyboard.swift */,
+				0960159C24C3E2B8003E1160 /* KeyboardObservingView.swift */,
+				096015A324C3E2FA003E1160 /* HiddenOnKeyboardViewModifier.swift */,
+				096015A224C3E2FA003E1160 /* KeyboardObserving.swift */,
+				096015A424C3E2FA003E1160 /* View+HideOnKeyboard.swift */,
+				096015A524C3E2FA003E1160 /* View+KeyboardObserving.swift */,
+			);
+			path = KeyBoardObservers;
+			sourceTree = "<group>";
+		};
+		097D5D9724C2BF8600EDC82C /* LodgeTaxReturn */ = {
+			isa = PBXGroup;
+			children = (
+				097D5D9824C2BF9600EDC82C /* LodgeTaxReturnView.swift */,
+			);
+			path = LodgeTaxReturn;
+			sourceTree = "<group>";
+		};
+		09C6CFC124BFFD94001315C0 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				09DF22B424BE8EBC008FE9BD /* SignInView.swift */,
+				09C6CFC224BFFDAF001315C0 /* SigIn+SubViews.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		09C6CFC424BFFDDA001315C0 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				09C6CFCB24BFFE64001315C0 /* ButtonStyle */,
+				09C6CFC824BFFE48001315C0 /* TextfieldStyle */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		09C6CFC524BFFDFB001315C0 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				09C6CFD324C03E43001315C0 /* CommonViews */,
+				09C6CFC624BFFE15001315C0 /* LoginTextField.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		09C6CFC824BFFE48001315C0 /* TextfieldStyle */ = {
+			isa = PBXGroup;
+			children = (
+				09C6CFC924BFFE53001315C0 /* ButtomTextfieldStyle.swift */,
+			);
+			path = TextfieldStyle;
+			sourceTree = "<group>";
+		};
+		09C6CFCB24BFFE64001315C0 /* ButtonStyle */ = {
+			isa = PBXGroup;
+			children = (
+				09C6CFCC24BFFE75001315C0 /* CircularButtonStyle.swift */,
+				09C6CFCE24BFFF24001315C0 /* NeumorphicButtonStyle.swift */,
+			);
+			path = ButtonStyle;
+			sourceTree = "<group>";
+		};
+		09C6CFD024C02F48001315C0 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				09C6CFD124C0325F001315C0 /* SignUpView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		09C6CFD324C03E43001315C0 /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				09F52D0E24C5739B0023049C /* AppFields */,
+				09C6CFD424C03E6A001315C0 /* TitleView.swift */,
+				09C6CFD624C040CF001315C0 /* BackgroundView.swift */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
+		09C6CFD824C041D9001315C0 /* AppExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				09C6CFD924C041E8001315C0 /* ImageExtension.swift */,
+				097D5D9424C2B9DD00EDC82C /* ColorExtension.swift */,
+				09150A2324C3622000A41E49 /* TransitionExtension.swift */,
+				096015B924C473EA003E1160 /* KeyboardDismiss.swift */,
+			);
+			path = AppExtensions;
+			sourceTree = "<group>";
+		};
+		09C6CFDB24C060A0001315C0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				096015A124C3E2EC003E1160 /* KeyBoardObservers */,
+				090B46BA24C1D918007EDADA /* Constants */,
+				09C6CFDE24C060C2001315C0 /* Validation */,
+				09C6CFDC24C060A9001315C0 /* ObservableArray.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		09C6CFDE24C060C2001315C0 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				09C6CFDF24C060CC001315C0 /* RegexCheck.swift */,
+				099979C924C18D1500EE2082 /* FormElement.swift */,
+				099979CB24C18D4100EE2082 /* RulesAndErrors.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
 		09DF22A624BE8EBC008FE9BD = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +231,14 @@
 		09DF22B124BE8EBC008FE9BD /* JobLogins */ = {
 			isa = PBXGroup;
 			children = (
+				097D5D9724C2BF8600EDC82C /* LodgeTaxReturn */,
+				09C6CFDB24C060A0001315C0 /* Utils */,
+				09C6CFD824C041D9001315C0 /* AppExtensions */,
+				09C6CFC524BFFDFB001315C0 /* CustomViews */,
+				09C6CFC424BFFDDA001315C0 /* Styles */,
+				09C6CFC124BFFD94001315C0 /* SignIn */,
+				09C6CFD024C02F48001315C0 /* SignUp */,
 				09DF22B224BE8EBC008FE9BD /* JobLoginsApp.swift */,
-				09DF22B424BE8EBC008FE9BD /* ContentView.swift */,
 				09DF22B624BE8EC1008FE9BD /* Assets.xcassets */,
 				09DF22BB24BE8EC1008FE9BD /* Info.plist */,
 				09DF22B824BE8EC1008FE9BD /* Preview Content */,
@@ -67,6 +252,17 @@
 				09DF22B924BE8EC1008FE9BD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09F52D0E24C5739B0023049C /* AppFields */ = {
+			isa = PBXGroup;
+			children = (
+				09F52D0C24C571C90023049C /* Appfield.swift */,
+				097D5D9224C2B6A800EDC82C /* AppTextfield.swift */,
+				09150A2124C334DE00A41E49 /* Datefield.swift */,
+				096015BB24C47632003E1160 /* Pickerfield.swift */,
+			);
+			path = AppFields;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +281,8 @@
 			dependencies = (
 			);
 			name = JobLogins;
+			packageProductDependencies = (
+			);
 			productName = JobLogins;
 			productReference = 09DF22AF24BE8EBC008FE9BD /* JobLogins.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +310,8 @@
 				Base,
 			);
 			mainGroup = 09DF22A624BE8EBC008FE9BD;
+			packageReferences = (
+			);
 			productRefGroup = 09DF22B024BE8EBC008FE9BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +338,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09DF22B524BE8EBC008FE9BD /* ContentView.swift in Sources */,
+				09C6CFDD24C060A9001315C0 /* ObservableArray.swift in Sources */,
+				09C6CFD724C040CF001315C0 /* BackgroundView.swift in Sources */,
+				09C6CFCD24BFFE75001315C0 /* CircularButtonStyle.swift in Sources */,
+				097D5D9524C2B9DD00EDC82C /* ColorExtension.swift in Sources */,
+				096015A724C3E2FA003E1160 /* HiddenOnKeyboardViewModifier.swift in Sources */,
+				096015BA24C473EA003E1160 /* KeyboardDismiss.swift in Sources */,
+				0960159F24C3E2B8003E1160 /* KeyboardObservingView.swift in Sources */,
+				09DF22B524BE8EBC008FE9BD /* SignInView.swift in Sources */,
+				090B46BC24C1D923007EDADA /* StringConstants.swift in Sources */,
+				096015A624C3E2FA003E1160 /* KeyboardObserving.swift in Sources */,
+				09C6CFE024C060CC001315C0 /* RegexCheck.swift in Sources */,
+				097D5D9924C2BF9600EDC82C /* LodgeTaxReturnView.swift in Sources */,
+				09150A2224C334DF00A41E49 /* Datefield.swift in Sources */,
+				099979CC24C18D4100EE2082 /* RulesAndErrors.swift in Sources */,
+				09C6CFC724BFFE15001315C0 /* LoginTextField.swift in Sources */,
+				096015BC24C47632003E1160 /* Pickerfield.swift in Sources */,
 				09DF22B324BE8EBC008FE9BD /* JobLoginsApp.swift in Sources */,
+				09C6CFD224C0325F001315C0 /* SignUpView.swift in Sources */,
+				09C6CFD524C03E6A001315C0 /* TitleView.swift in Sources */,
+				09C6CFCA24BFFE53001315C0 /* ButtomTextfieldStyle.swift in Sources */,
+				09150A2424C3622000A41E49 /* TransitionExtension.swift in Sources */,
+				097D5D9324C2B6A800EDC82C /* AppTextfield.swift in Sources */,
+				09F52D0D24C571C90023049C /* Appfield.swift in Sources */,
+				099979CA24C18D1500EE2082 /* FormElement.swift in Sources */,
+				09C6CFC324BFFDAF001315C0 /* SigIn+SubViews.swift in Sources */,
+				0960159E24C3E2B8003E1160 /* Keyboard.swift in Sources */,
+				09C6CFDA24C041E8001315C0 /* ImageExtension.swift in Sources */,
+				09C6CFCF24BFFF24001315C0 /* NeumorphicButtonStyle.swift in Sources */,
+				096015A824C3E2FA003E1160 /* View+HideOnKeyboard.swift in Sources */,
+				096015A924C3E2FA003E1160 /* View+KeyboardObserving.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
